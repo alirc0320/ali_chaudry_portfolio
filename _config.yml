@@ -27,7 +27,7 @@ nav:
 # Author Info
 author:
   name: "Ali Chaudry"
-  # avatar: "/assets/images/profile_pic.png"  # Upload your profile image here
+  avatar: "/assets/images/profile_pic.png"  # Upload your profile image here
   bio: "Aspiring Embedded Software Engineer | Computer Engineering Student at UIUC"
   location: "Chicago, IL"
   email: "alirc0320@gmail.com"
