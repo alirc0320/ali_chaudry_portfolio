@@ -1,34 +1,33 @@
+# Site Settings
 title: "Ali Chaudry Portfolio"
-description: "Showcasing my projects, experience, and skills in embedded systems, hardware, and software engineering."
-url: "https://ali_chaudry_portfolio.github.io"  # Replace with your GitHub username
-baseurl: ""  # Leave this empty for GitHub Pages
+description: "My projects, experience, and contact information."
+url: "https://ali_chaudry_portfolio.github.io"  # Replace with your GitHub Pages URL
+baseurl: ""  # Leave blank for root deployment
 
+# Theme Settings
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: dark  # You can try other skins: air, contrast, mint, etc.
+
+# Author Information
+author:
+  name: "Ali Chaudry"
+  avatar: "/assets/images/profile_pic.png"
+  bio: "Aspiring Embedded Software Engineer | Computer Engineering Student at UIUC"
+
+# Plugins
 plugins:
   - jekyll-feed
-  - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-include-cache
 
-# Theme Skin (Choose from: air, contrast, dark, dirt, mint, sunrise, aqua, neon, plum)
-minimal_mistakes_skin: dark
-
-# Navigation Links
+# Navigation Bar
 nav:
   - title: "Home"
     url: /
   - title: "Projects"
     url: /projects/
-  - title: "Resume"
-    url: /resume/
   - title: "Contact"
     url: /contact/
 
-# Author Info
-author:
-  name: "Ali Chaudry"
-  avatar: "/assets/images/profile_pic.png"  # Upload your profile image here
-  bio: "Aspiring Embedded Software Engineer | Computer Engineering Student at UIUC"
-  location: "Chicago, IL"
-  email: "alirc0320@gmail.com"
-  linkedin: "https://www.linkedin.com/in/ali-chaudry/"
+# Show Downloads Button
+show_downloads: true
