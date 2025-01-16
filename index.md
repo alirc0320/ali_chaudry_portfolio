@@ -1,15 +1,14 @@
 ---
 layout: home
-title: "Welcome to Ali Chaudry's Portfolio"
-excerpt: "Showcasing my projects, experience, and skills."
+title: "Ali Chaudry Portfolio"
+excerpt: "Welcome to my portfolio showcasing my projects and experience."
 ---
 
+![Profile Picture](/assets/images/profile_pic.png)
+
 ## About Me
+I am an aspiring Embedded Software Engineer studying Computer Engineering at UIUC. My interests lie in embedded systems, FPGA design, and operating systems.
 
-I am a Computer Engineering student at UIUC, passionate about embedded systems, firmware development, and computer architecture.  
-
-## Featured Projects
-
-- **Out-of-Order RISC-V Processor Design**: Implemented an out-of-order RV32IM core with advanced branch prediction.  
-- **Linux Operating System**: Built a kernel with paging virtual memory and round-robin scheduling.  
-- **Telemetry System for Starlink at SpaceX**: Developed real-time telemetry for satellite communication using Redis.
+## Projects
+- **Out-of-Order RISC-V Processor:** Designed a high-performance processor with advanced branch prediction.
+- **Linux Operating System:** Built a basic Linux kernel with virtual memory and round-robin scheduling.
