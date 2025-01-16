@@ -1,31 +1,19 @@
-# Basic Information
-title: Ali Chaudry Portfolio
-description: My projects, experience, and contact information.
-url: "https://ali_chaudry_portfolio.github.io"  # Replace with your GitHub Pages URL
-baseurl: ""  # Leave empty for GitHub Pages
+title: "Ali Chaudry Portfolio"
+description: "Showcasing my projects, experience, and skills in embedded systems, hardware, and software engineering."
+url: "https://ali_chaudry_portfolio.github.io"  # Replace with your GitHub username
+baseurl: ""  # Leave this empty for GitHub Pages
 
-# Theme Settings
-remote_theme: mmistakes/minimal-mistakes@4.26.2
-minimal_mistakes_skin: dark  # Change skin: air, contrast, dark, dirt, mint, sunrise, aqua, neon, plum
-
-# Author Information
-author:
-  name: "Ali Chaudry"
-  avatar: "/assets/images/profile_pic.png"  # Upload your profile picture to assets/images
-  bio: "Aspiring Engineer | Computer Engineering Student at UIUC"
-  location: "Seattle, WA"
-  email: "your-email@example.com"
-  github: yourusername
-  linkedin: your-linkedin-username
-
-# Plugins
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-include-cache
 
-# Navigation Bar
+# Theme Skin (Choose from: air, contrast, dark, dirt, mint, sunrise, aqua, neon, plum)
+minimal_mistakes_skin: dark
+
+# Navigation Links
 nav:
   - title: "Home"
     url: /
@@ -36,18 +24,11 @@ nav:
   - title: "Contact"
     url: /contact/
 
-# Social Media Links
-social:
-  github: yourusername
-  linkedin: your-linkedin-username
-  email: your-email@example.com
-
-# Google Analytics (optional)
-google_analytics: UA-XXXXXXXXX-X  # Replace with your Google Analytics Tracking ID
-
-# Build Settings
-markdown: kramdown
-highlighter: rouge
-
-# Show Downloads Button
-show_downloads: true
+# Author Info
+author:
+  name: "Ali Chaudry"
+  # avatar: "/assets/images/profile_pic.png"  # Upload your profile image here
+  bio: "Aspiring Embedded Software Engineer | Computer Engineering Student at UIUC"
+  location: "Chicago, IL"
+  email: "alirc0320@gmail.com"
+  linkedin: "https://www.linkedin.com/in/ali-chaudry/"
